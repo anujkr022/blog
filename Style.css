@@ -1,0 +1,214 @@
+ 
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    line-height: 1.1;
+    color:rgb(29, 28, 28);
+}
+/*===============Open banner==================*/
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .swiper-button-next{
+    background-color: #8b9292;
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .swiper-button-prev{
+    background-color: #8b9292;
+    padding: 15px;
+    border-radius: 50%;
+  }
+   
+:root{
+    --swiper-navigation-size: 14px !important;
+    --swiper-navigation-color:rgb(208, 241, 16) !important;
+
+     
+     
+}
+
+ 
+/*===============close banner==================*/
+
+/*===============Open breadcrumb==================*/
+
+.background
+{
+  background-color: #feffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.image  {
+    box-shadow: 1px 2px 10px #e9dfd6;
+    background-color: rgb(0, 150, 136);;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social{
+    margin: 8px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.date{
+    color: #24585a;
+    font-size: 15px;
+    float: right;
+     margin: 10px;
+   
+}
+
+#author-name{
+    display: flex;
+}
+
+.author-name strong{
+    font-size: 25px;
+    border-bottom: 3px solid orangered;
+}
+
+.author-name i{
+    font-size: 15px;
+    color: #24585a;
+    
+}
+
+.author-name h2{
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.author-name p{
+    font-size: 15px;
+    color: rgb(92, 87, 87);
+}
+
+
+
+/*===============close breadcrumb==================*/
+
+
+/*===============open  table contant==================*/
+.intro{
+    font-size: 25px;
+}
+
+.table img{
+    max-height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.slider{
+    display: flex;
+    gap: 20px;
+}
+
+#table-content .bx-wrapper{
+    width: 100%;
+}
+
+
+.table h2{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url('images/controls.png') no-repeat 0 -32px;
+  }
+  .bx-wrapper .bx-prev:hover,
+  .bx-wrapper .bx-prev:focus {
+    background-position: 0 0;
+  }
+  .bx-wrapper .bx-next {
+    right: 10px;
+    background: url('images/controls.png') no-repeat -43px -32px;
+  }
+  .bx-wrapper .bx-next:hover,
+  .bx-wrapper .bx-next:focus {
+    background-position: -43px 0;
+  }
+
+  .bx-wrapper{
+    -webkit-box-shadow: 0 0 5px block !important;
+    box-shadow: none !important;
+    border: none !important;
+    background:none !important;
+    padding: 10px !important;
+  }
+
+/*===============close table contant==================*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+/*===============open blog title==================*/
+.blog-title h2{
+    font-size: 20px;
+}
+/*===============open blog title==================*/
+
+/*===============open Table contant open==================*/
+
+    .table img{
+        height: 120px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .table h2{
+        font-size: 10px;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+        position: relative;
+        top: -16px !important;
+        bottom: 30px !important;
+        margin-top: 1px;
+        outline: 0;
+        width: 12px;
+        height: 12px;
+        text-indent: -9999px;
+        z-index: 9999;
+      }
+      .image  {
+        box-shadow: 1px 2px 10px #f77801;
+        padding: 5px;
+        border-radius: 50%;
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+/*===============close Table contant==================*/
